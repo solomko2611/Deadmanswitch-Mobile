@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-maps/lib/MapView.types.d.ts b/node_modules/react-native-maps/lib/MapView.types.d.ts
+index 9e029b0..175f30e 100644
+--- a/node_modules/react-native-maps/lib/MapView.types.d.ts
++++ b/node_modules/react-native-maps/lib/MapView.types.d.ts
+@@ -24,10 +24,11 @@ export type EdgePadding = {
+     bottom: Number;
+     left: Number;
+ };
+-export type MapType = 'hybrid' | 'mutedStandard' | 'none' | 'satellite' | 'standard' | 'terrain';
++export type MapType = 'hybrid' | 'mutedStandard' | 'none' | 'satellite' | 'standard' | 'terrain' | 'satelliteFlyover';
+ export type MapTypes = {
+     STANDARD: 'standard';
+     SATELLITE: 'satellite';
++    SATELLITE_FLYOVER: 'satelliteFlyover';
+     HYBRID: 'hybrid';
+     TERRAIN: 'terrain';
+     NONE: 'none';
